@@ -1,0 +1,7 @@
+1.count
+2.frequency
+3.stemming-2
+3.lemmatization-3
+4.tokenization
+5.pos
+6.sentiment analysis-3

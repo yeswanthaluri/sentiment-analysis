@@ -1,0 +1,44 @@
+Text Mining : Text Analytics, also known as text mining, is the process of examining large collections of written resources to 
+              generate new information,and to transform the unstructured text into structured data for use in further analysis.
+
+Text : text is everywhere books,news,our conversations with friends , facebbok and wikipedia 
+       text is growing . about 2.5 million terabytes of text is being created per one day
+			 that means by 2020 there will be 40 billion terabytes of data
+	AND 80% of this data is unstructured.
+then comes text mining, it is used to convert all of that unstructured data into structures data.
+we can do that using python and its numerous libraries and toolkits
+first lets do some basic text handling operations in python
+lower upper split 
+as most of you know hamlet is a play written by shakesphere , we will use it now for text handling
+file
+re
+to get re into python we import python regex module 
+pandas is a open source python library used to manipulate tables and time series
+
+natural language : any language we use for speaking is called as natural language
+artificial language: language used by machines like c , c++ , python , java
+
+for machines to understand natural langage we use natural language processing.
+nlp is a part of artificial intelligence
+using an nltk we humans can interact with computer to process and analyze large amounts of natural language data.
+-now let me explain some nlp tasks
+count : we can count the vocabuary of words in python using len operation from nltk 
+count 2: frequency , using nltk we can calculate the frequency of each word in a given file , like how many times has a word repeated
+		this output shows the frequency in descending order
+stemming : this is a process of removing prefixes and suffixes of a word .
+	let us take a word organize , it can be written as organizes , organize,organized,organizing
+	it is useful to search for one of this word. we use emming for that
+lemmatization: it is a improved version of stemming where we consider the vocabulary of a language
+tokenization : earlier when we split a sentence with a perfect vocabulary.
+pos: parts of speech verb noun adverb conjunction 
+
+till now we were able to process natural language i.e make the machine understand 
+now let us process this text using text classification in python.
+here we apply classification algorithm to classify text for a given input 
+some examples are topic identification , spam detection , sentiment analysis and spelling correction 
+sentiment analysis : The process of computationally identifying and categorizing opinions expressed in a piece of text, 
+			especially in order to determine whether the writer's attitude towards a particular topic, product, etc. 
+			is positive, negative, or neutral
+
+Merits and Demerits of Text Mining.
+
